@@ -1,6 +1,6 @@
-# MARIADB MASTER-SLAVE REPLIACTION
+# MARIADB MASTER-SLAVE REPLICATION
 
-## MASTER SERVER
+## PART A : ON MASTER SERVER
 
 ### Installing MariaDB server
 ```
@@ -63,7 +63,7 @@ SHOW MASTER STATUS;
 Note down the values for `File` and `Position`.
 
 
-## SLAVE SERVER
+## PART B : ON SLAVE SERVER
 
 ### Install MariaDB
 ```
